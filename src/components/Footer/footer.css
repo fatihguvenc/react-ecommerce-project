@@ -1,0 +1,22 @@
+footer {
+  background-color: #cd6133;
+}
+.footer-area {
+  width: 90px;
+  height: 90px;
+}
+.footer-area:hover {
+  color: white;
+}
+.footer-d {
+  padding-right: 14px;
+}
+.footer-item {
+  color: #d1ccc0;
+  text-decoration: none;
+  font-weight: 400;
+}
+.footer-item:hover {
+  color: #d1ccc0;
+  text-decoration: underline;
+}

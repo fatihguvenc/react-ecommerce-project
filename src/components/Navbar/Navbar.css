@@ -1,0 +1,63 @@
+.navbar {
+  background-color: #cd6133;
+  font-weight: 700;
+}
+.logo-disc {
+  font-size: 9px;
+  border-top: 2px solid #474787;
+  padding-top: 4px;
+  text-align: center;
+}
+.logo-d,
+.logo-s {
+  font-size: 24px;
+  padding-top: 0;
+}
+.logo-d {
+  border-right: 2px solid #474787;
+  padding-right: 9px;
+}
+.logo {
+  text-decoration: none;
+  color: white;
+}
+.logo:hover {
+  text-decoration: none;
+}
+.categories li {
+  list-style-type: none;
+  margin-right: 50px;
+}
+.categories li a {
+  color: black;
+  text-decoration: none;
+}
+.categories li a:hover {
+  color: orange;
+}
+.login-text {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+.login-icon {
+  color: #f7f1e3;
+}
+.signup-text {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: white;
+  text-decoration: none;
+}
+.cart-badge {
+  font-size: 10px;
+  top: 1pz;
+  left: 18px;
+}
+.shopping-icon {
+  font-size: 20px;
+}
+
+.search-icon {
+  font-size: 20px;
+}
