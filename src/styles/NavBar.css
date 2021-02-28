@@ -1,0 +1,14 @@
+.navbar-items ul {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.navbar-items ul li {
+  border: 1px solid black;
+  padding: 0 2rem;
+  list-style: none;
+}
+
+.navbar-items ul li a {
+  text-decoration: none;
+}

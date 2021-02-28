@@ -1,0 +1,92 @@
+/* *{
+  box-sizing: border-box;
+}
+
+
+
+h1, p {
+  font-family: Lato;
+}
+
+.card {
+  position: relative;
+}
+
+.button {
+  position: absolute;
+  top: 1%;
+  right: 2%;
+  outline: none;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: orange;
+  color: white;
+  border: 1px solid white;
+  outline: none;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.contact input, .contact textarea {
+  width: 400px;
+  margin-bottom: 10px;
+  padding-left: 0.5rem;
+}
+
+.contact button {
+  width: 150px;
+  height: 30px;
+  background-color: #FCD220;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #383838;
+}
+
+.contact button:hover {
+  background-color: #fdfdfd;
+  border: 2px solid #FCD220;
+}
+
+body {
+  background-color: #f7f1e3;
+}
+.card-box {
+  border: 2px solid #d1ccc0;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  height: 500px;
+}
+
+.card .card-body {
+  text-decoration: none;
+  color: black;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.info-button, .basket-button, .button {
+  background-color: white;
+  color: #1C1F23;
+  border: 1px solid orange;
+  border-radius: 10px;
+}
+
+.info-button:hover, .basket-button:hover, .button:hover {
+  background-color: orange;
+  color: white;
+} */

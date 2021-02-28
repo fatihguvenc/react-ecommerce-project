@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  position: relative;
+}
+
+.button {
+  position: absolute;
+  top: 3.5%;
+  right: 3.5%;
+  border: none;
+  background: transparent;
+}
+
+.button:focus,
+.info-button:focus,
+.basket-button:focus,
+.load-more:focus {
+  outline: none;
+}
+
+.fa-heart,
+.fa-times {
+  font-size: 24px;
+}
+
+.fa-times {
+  color: #36393d;
+}
+
+.card-box {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  height: 500px;
+  -moz-asx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateX(0);
+}
+
+.card-box:hover {
+  transform: scale(1.05);
+  transition: transform 0.1s ease-out;
+}
+
+.card .card-body {
+  text-decoration: none;
+  color: black;
+}
+
+.details-card {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.info-button {
+  width: 40px;
+}
+
+.basket-button {
+  background-color: #227093;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  border: 0;
+}
+.price-area {
+  background-color: #cd6133;
+  border-radius: 5px;
+  color: #fff;
+}
+.basket-button:hover {
+  background-color: #34ace0;
+  color: white;
+}
+
+.load-more {
+  width: 200px;
+  height: 35px;
+  outline: none;
+  border: none;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+}
+
+.load-more:hover {
+  background-color: white;
+  color: #1c1f23;
+  border: 1px solid orange;
+}
+
+.back {
+  margin-left: 5px;
+}
+
+.back-link {
+  text-decoration: none;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.favorites-card {
+  background: linear-gradient(to bottom, #e6e6e6 0%, #fff 100%);
+}
+/* New Detail */
+.cart-button {
+  background-color: #227093;
+  border-radius: 5px;
+}
+.cart-button:hover {
+  background-color: #34ace0;
+}
+.size {
+  border: 1px solid #cd6133;
+  border-radius: 5px;
+}
+.size:hover {
+  background-color: #cd6133;
+  color: #fff;
+}
+.fa-star {
+  color: #ffb142;
+}
+.back-arrow {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.back-arrow:hover {
+  color: gray;
+}
+.fa-arrow-left {
+  margin-right: 10px;
+}
+.card-text ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.card-text h2 {
+  margin-bottom: 20px;
+}
+/* icon */
+.fa-trash-alt,
+.fa-plus,
+.fa-minus {
+  cursor: pointer;
+}
+.fa-trash-alt:hover {
+  color: #b33939;
+}
+.fa-minus:hover,
+.fa-plus:hover {
+  color: #ff793f;
+}
+.total-price {
+  background-color: #ff793f;
+}
+button:disabled {
+  color: #ff793f;
+}

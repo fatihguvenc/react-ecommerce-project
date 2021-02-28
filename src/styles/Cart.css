@@ -1,0 +1,19 @@
+.cart-wrapper {
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #fdc253 0%, #fffafa 100%);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+.text {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.image-wrapper {
+  padding: 2.5rem;
+}
+
+.cart-image {
+  border-radius: 5px;
+  border: 2px solid orange;
+}
